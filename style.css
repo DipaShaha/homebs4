@@ -1,0 +1,163 @@
+
+h2,h5{
+	font-family: 'Montserrat', sans-serif;
+}
+p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+}
+
+h2{
+	font-size: 2em;
+	color: #232A35;
+}
+a{
+	color: #DBDDE0;
+}
+.navbar{
+	padding-top: 30px;
+
+}
+.navbar-brand img{
+	margin-top:-.5em;
+}
+
+.navbar-toggler-icon, .navbar-toggler{
+	background: #F9703A;
+	color: #FFFFFF;
+	border: none;
+}
+
+.banner{
+ height: 80vh;
+  /*background: url(images/intro.jpg) no-repeat center center /cover;*/
+  background-color: #FEF9F3;
+  
+}
+.banner h2{
+	color: #FEBF7C;
+}
+
+.nav-item{
+	padding: 10px 10px;
+}
+
+.nav-link:hover{
+	color: #FEBF7C;
+}
+.btn-apply{
+	font-size: 1em;
+	letter-spacing: 1px;
+	border-radius: 25px;
+	background-color:  #FFFFFF;
+	color: #FEBF7C;
+	padding: 6px 10px;
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.08), 0 6px 12px 0 rgba(0,0,0,0.3);
+	transition: color 0.3s ease-out;
+}
+.banner-btn{
+	font-size: 1em;
+	letter-spacing: 1px;
+	border-radius: 25px;
+	background-color: #FEBF7C;
+	color: #FFFFFF;
+	padding: 8px 15px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.12);
+	transition: color 0.3s ease-out;
+
+}
+.banner-btn:hover{
+	color: #FFFFFF;
+	padding: 8px 15px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.17);
+
+}
+
+
+
+/*statr department section*/
+
+.department h1{
+	color: #232A35;
+}
+.dept-1{
+background-color: #F9703A;
+}
+.dept-2{
+	background-color: #80BE41;
+
+}
+.dept-3{
+background-color: #FEB157;
+}
+
+/*video section*/
+  iframe{
+    border-radius: 50%;
+    /*padding: 20px; */
+    width: 80%;
+    height: 23em;
+      }
+
+
+/*university section*/
+
+
+
+.card-title a:hover{
+	color: #FFC672;
+}
+.university-card-title{
+	font-size: 1em;
+	color: #091018 !important;
+}
+
+.university-card-subtitle{
+	font-size: .9em;
+	color: #091018 !important;
+}
+.university-card-subtitle a{
+	color: #1B323E;
+}
+
+
+/*footer*/
+footer{
+	background-color: #252D3A;
+}
+
+hr{
+	border-bottom: 1px solid white
+}
+.fab {
+	color: #EBEDEF;
+}
+.support-btn{
+	background-color: #FEBF7C;
+}
+
+/*footer bottom*/
+.footer-bottom{
+	background-color: #1C222E;
+	
+	font-size: .6em;
+}
+.Learnign li a{
+	font-size: .8em;
+}
+.footer-bottom p,.footer-bottom li{
+	color: #EBEDEF;
+}
+
+.ban{
+	padding-top: 10%;
+}
+
+/*mobile responsivenss*/
+
+@media (max-width: 590px) {
+
+	.ban{
+		padding-top: 25%;
+	}
+}
